@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Alegreya+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 46, 40);
+    color: whitesmoke;
+    text-decoration: none;
+    border: none;
+
+}
+h1, h2, h3{
+    font-family: 'Aclonica', sans-serif;
+}
+p{
+    font-family: 'Alegreya Sans', sans-serif;  
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+
+.logo{
+    width: 100px;
+    margin-left: 13rem;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.navigation{
+    margin-top: 35px;
+    margin-right: 13rem;
+
+}
+.nav{
+    
+    margin-right: 1rem;
+
+}
+.my-information{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.container{
+    width: 400px;
+
+}
+#info{
+    font-size: 3rem;
+    
+}
+.container p{
+    text-align: center;
+    margin-top: 3px;
+    font-size: 22px;
+}
+.my-photo{
+    width: 250px;
+    border-radius: 25px;
+}
+.about-me{
+    margin-top: 3rem;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-around;
+}
+.about-me h2{
+    font-size: 35px;
+    margin-left: 9px;
+    text-align: center;
+    margin-top: 20px;
+}
+.about-me p{
+    margin-left: 7rem;
+    width: 300px;
+    font-size: 20px; 
+}
+
+#portfolio{
+    margin-top: 40px;
+
+}
+#portfolio h3{
+    margin-left: 12rem;
+    font-size: 25px;
+}
+.my-works{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10rem;
+}
+.my-arts{
+    width: 170px;
+    margin-left: 2rem;
+    border-radius: 12px;
+}
+
+.my-designs{
+    width: 200px;
+    margin-left: 3rem;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+.what-iprovide{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.service-title{
+    width: 300px;
+    margin-top: 3rem;
+}
+.service-title h2{
+    font-size: 35px;
+}
+.service-title p{
+    font-size: 19px;
+}
+.service-discreption{
+    width: 300px;
+}
+.service-discreption h3{
+    font-size: 21px;
+    margin: 5px;
+}
+.service-discreption p{
+    margin: 5px;
+}
+.for-more-info{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+#name, #email{
+    border-bottom: 1px solid blue;
+    width: 10rem;
+    margin: 10px 0;
+}
+#message{
+    border-bottom: 1px solid blue;
+}
+#submit{
+    background-color: blue;
+    width: 100px;
+    margin-left: 5rem;
+    border-radius: 7px;
+    font-weight: bold;
+}
+#submit:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+#footer{
+    text-align: center;
+    margin: 30px;
+    font-weight: bolder;
+}
+.nav:hover{
+    color: yellow;
+}
+
+
+/*Responsive from here*/
+
+@media screen and (max-width:768px){
+    .logo{
+        width: 50px;
+        margin-left: 1.7rem;
+        
+    }
+    .navigation{
+        margin-right: 2.5rem;
+    }
+    .my-photo{
+        width: 175px;
+    }
+    #info{
+        font-size: 33px;
+    }
+    .container p{
+        font-size: 17px;
+    }
+    .about-me h2{
+        font-size: 28px;
+    }
+    .about-me p{
+        font-size: 17px;
+    }
+    #portfolio h3{
+        margin-left: 3rem;
+    }
+    .my-works{
+        margin-left: 30px;
+    }
+    .arts{
+        margin-left: 10px;
+    }
+    .my-arts{
+        width: 100px;
+        margin-left: 10px;
+    }
+}
