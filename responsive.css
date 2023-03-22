@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Alegreya+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200&display=swap');
 
 
 *{
@@ -10,634 +10,345 @@
     border: none;
 
 }
-h1, h2, h3{
-    font-family: 'Aclonica', sans-serif;
-}
-p{
-    font-family: 'Alegreya Sans', sans-serif;  
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-}
-
-
 .logo{
-    width: 100px;
-    margin-left: 13rem;
-    margin-top: 10px;
-    border-radius: 30px;
+    width: 5rem;
+    border-radius: 2.5rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    
 }
-
 .navigation{
-    margin-top: 35px;
-    margin-right: 13rem;
-
+    float: right;
+    margin-top: 2rem;
+    margin-right: 4rem;
 }
 .nav{
-    
-    margin-right: 1rem;
-
+    margin: 1rem;
 }
 .my-information{
     display: flex;
-    justify-content: space-around;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-.container{
-    width: 400px;
-
-}
-#info{
-    font-size: 3rem;
-    
-}
-.container p{
-    text-align: justify;
-    margin-top: 3px;
-    font-size: 22px;
+    flex-direction: row;
+    margin: 3rem;
+    justify-content: space-evenly;
 }
 .my-photo{
-    width: 250px;
-    border-radius: 25px;
-}
-.about-me{
-    margin-top: 3rem;
+    width: 22rem;
+    border-radius: 3rem;
+    
 }
 
+.my-info h1{
+    font-size: 4rem;
+    font-family: 'Lato', sans-serif;
+}
+.my-info p{
+    margin-right: 5rem ;
+    font-size: 1.5rem;
+    text-align: justify;
+    
+}
 .about-me{
-    display: flex;
-    justify-content: space-around;
+    
+    margin: 3rem;
+    
 }
 .about-me h2{
-    font-size: 35px;
-    margin-left: 9px;
-    text-align: center;
-    margin-top: 20px;
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    
+    margin: 1rem;
+    padding-right: auto;
+   
 }
-.about-me p{
-    margin-left: 7rem;
-    width: 300px;
-    font-size: 20px; 
+.my-discription{
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+}
+.my-discription p{
+    margin: 1rem;
+    font-size: 1.5rem;
     text-align: justify;
+    padding: auto;
 }
-
-#portfolio{
-    margin-top: 40px;
-
+.portfolio{
+    display: flex;
+    margin:1rem 3rem;
+    flex-direction: column;
 }
-#portfolio h3{
-    margin-left: 12rem;
-    font-size: 25px;
+.portfolio h3{
+    font-size: 2rem;
+    padding-top: 1rem;
+    font-family: 'Lato', sans-serif;
+
+
 }
 .my-works{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    margin-left: 10rem;
-}
-.my-arts, .hide{
-    width: 170px;
     margin-left: 2rem;
-    border-radius: 12px;
 }
-
-.my-designs{
-    width: 200px;
+.arts{
     margin-left: 3rem;
-    border-radius: 12px;
-    margin-top: 10px;
+}
+.design{
+    margin-left: 7rem;
+}
+.my-arts{
+    width: 18rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+.my-designs{
+    width: 18rem;
+    margin: 1rem;
+    border-radius: 1rem;
 }
 .what-iprovide{
     display: flex;
-    margin-top: 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: 3rem;
+
 }
 .service-title{
-    width: 300px;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 .service-title h2{
-    font-size: 35px;
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+
 }
 .service-title p{
-    font-size: 19px;
-    text-align: justify;
-}
-.service-discreption{
-    width: 300px;
+    font-size: 1.5rem;
+    padding-right: 3rem;
 }
 .service-discreption h3{
-    font-size: 21px;
-    margin: 5px;
+    font-size: 1.9rem;
+    font-family: 'Lato', sans-serif;
+
+    margin: 0.3rem;
 }
 .service-discreption p{
-    margin: 5px;
-    text-align: justify;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0.3rem;
 }
 .for-more-info{
     display: flex;
-    justify-content: space-around;
-    margin: 30px 0;
+    justify-content: space-evenly;
+}
+.contact h2{
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+
+}
+.contact p{
+    font-size: 1.5rem;
+}
+.your-info{
+    font-size: 1.5rem;
 }
 #name, #email{
+    width: 15rem;
+    height: 2rem;
     border-bottom: 1px solid whitesmoke;
-    width: 10rem;
-    margin: 10px 0;
 }
 #message{
     border-bottom: 1px solid whitesmoke;
 }
 #submit{
-    background-color: whitesmoke;
-    width: 100px;
-    margin-left: 5rem;
-    border-radius: 7px;
-    font-weight: bold;
+    margin:0.5rem 5rem;
+    background-color: white;
+    
     color: black;
-}
-#submit:hover{
-    background-color: black;
-    color: whitesmoke;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+
 }
 #footer{
+    margin: 1rem;
+    font-weight: bold;
     text-align: center;
-    margin: 30px;
-    font-weight: bolder;
+    font-size: 1rem;
 }
-.nav:hover{
-    color: grey;
-}
-
-
-/*Responsive from here*/
-@media only screen and (min-width: 1024px){
-   .header{
-    justify-content: space-around;
-   }
-   
-    .logo{
-    width: 150px;
-    border-radius: 100px;
-    margin-left: 10rem;
-    
-   }
-   p{
-    font-size: 15px;
-   }
-   .navigation{
-    padding-left: 10rem;
-   }
-   .nav{
-    font-size: 20px;
-   }
-   .my-information{
-    justify-content: space-evenly;
-   }
-   .my-photo{
-    width: 300px;
-   }
-   #info{
-    font-size: 50px;
-   }
-   .about-me h2{
-    font-size: 40px;
-    margin-left: 10rem;
-   }
-   .about-me p{
-    margin-right: 10rem;
-   }
-   #portfolio{
-    margin-left: 6rem;
-   }
-   #portfolio h3{
-    font-size: 30px;
-   }
-   .what-iprovide{
-    justify-content: space-evenly;
-   }
-   .service-title h2{
-    font-size: 40px;
-   }
-   .service-discreption h3{
-    font-size: 30px;
-   }
-   .for-more-info{
-    justify-content: space-evenly;
-   }
-
-   .for-more-info h2{
-    font-size: 40px;
-   }
-   .for-more-info p{
-    font-size: 20px;
-   }
-   .your-info{
-    font-size: 20px;
-   }
-}
-
-
-@media screen and (max-width:1024px) {
-    .logo{
-        margin-left: 4rem;
-        border-radius: 50px;
-    }
-    .navigation{
-        margin-right: 5rem;
-    }
-    .container p{
-        text-align: justify;
-    }
-    .about-me h2{
-        margin-left: 7rem;
-    }
-    .about-me p{
-        text-align: justify;
-        margin-right: 4rem;
-    }
-    #portfolio h3{
-        margin-left: 5rem;
-    }
-    .my-works{
-        margin-left: 4rem;
-    }
-    .my-arts, .hide{
-        margin-left: 10px;
-        width: 150px;
-    }
-    .my-designs{
-        margin-left: 40px;
-        width: 150px;
-    }
-}
-@media only screen and (max-width: 821px) {
-    
-    .my-arts{
-        margin-left: 20px;
-    }
-}
-
-
-
-@media screen and (max-width:768px){
-    .logo{
-        width: 75px;
-        margin-left: 1.7rem;
-        
-    }
-    .navigation{
-        margin-right: 2.5rem;
-    }
-    .my-photo{
-        width: 175px;
-    }
-    #info{
-        font-size: 33px;
-    }
-    .container p{
-        font-size: 17px;
-    }
-    .about-me h2{
-        font-size: 28px;
-    }
-    .about-me p{
-        font-size: 17px;
-    }
-    #portfolio h3{
-        margin-left: 3rem;
-    }
-    .my-works{
-        margin-left: 70px;
-    }
-    .arts{
-        margin-left: 10px;
-    }
-    .my-arts, .hide, .my-designs{
-        width: 100px;
-        
-    }
-    .my-designs{
-        margin-left: 2rem;
-    }
-    .service-title h2{
-        font-size: 28px;
-    }
-    .service-title p{
-        font-size: 17px;
-    }
-    .service-discreption h3{
-        font-size: 23px;
-    }
-    
-
-}
-@media only screen and (max-width: 579px){
-    #info{
-         margin-left: 2rem;
-    }
-    .container p{
-        font-size: 15px;
-        width: 200px;
-        margin-left: 2rem;
-
-    }
-
-    #portfolio h3{
-        font-size: 19px;
-    }
-    .my-works{
-        margin-left: 6rem;
-        flex-direction: row;
-    }
-    
-    .my-designs{
-        width: 150px;
-    }
-    .what-iprovide{
-        flex-direction: column;
-        margin-left: 9rem;
-    }
-    .service-title, .service-discreption{
-        margin: 10px;
-    }
-    .for-more-info{
-        flex-direction: column;
-        margin-left: 10rem;
-    }
-    .for-more-info h2, p{
-        margin: 10px 0;
-    }
-    
-}
-
-@media only screen and (max-width: 540px){
-    .what-iprovide{
-        flex-direction: row;
-        
-    }
-    .service-title h2{
-        width: 200px;
-        
-    }
-    .service-discreption{
-        margin-right: 10px;
-    }
-    .for-more-info{
-        flex-direction: row;
-    }
-    .contact{
-        width: 300px;
-        padding-right: 20px;
-        margin-right: 5rem;
-    }
-    .your-info{
-        margin-left: 4rem;
-    }
-
-}
-
-@media only screen and (max-width: 414px){
-    .my-works{
-        margin-left: 25px;
-    }
-}
-
-
-@media only screen and (max-width: 425px){
-    .logo{
-        width: 75px;
-        height: 75px;
-        margin-left: 30px;
-    }
-    .navigation{
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-        margin-right: 10px;
-    }
-    .nav{
-        font-size: 13px;
-        margin-top: 2px;
-    }
-    .my-information{
-        flex-direction: column;
-        margin-top: 20px;
-    }
-    #info{
-        font-size: 30px;
-        margin-left: 2rem;
-    }
-    .container p{
-        font-size: 15px;
-        text-align: justify;
-        margin-left: 2rem;
-    }
-    .my-photo{
-        margin-left: 6rem;
-        margin-top: 20px;
-    }
-    .about-me{
-        flex-direction: column;
-    }
-    .about-me h2{
-        font-size: 20px;
-        margin-right: 4rem; 
-        
-    }
-    .about-me p{
-        margin-left: 4rem;
-        text-align: justify;
-    }
-
-    #portfolio h3{
-        font-size: 16px;
-        
-
-    }
-    .my-arts{
-        width: 80px;
-    }
-    
-    .what-iprovide{
-        flex-direction: column;
-        margin-left: 3rem;
-    }
-    .service-title{
-        flex-direction: column;
-    }
-    .service-title h2{
-        font-size: 20px;
-        margin: 5px 0;
-
-    }
-    .service-title p{
-        font-size: 15px;
-        margin: 5px 0;
-    }
-    .service-discreption h3{
-        font-size: 20px;
-        margin: 5px 0;
-    }
-    .service-discreption p{
-        font-size: 15px;
-        margin: 5px 0;
-    }
-    .for-more-info{
-        flex-direction: column;
-        margin-left: 3rem;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-    .for-more-info h2{
-        margin-bottom: 5px;
-        font-size: 20px;
-    }
-    .for-more-info p{
-        font-size: 15px;
-        margin-bottom: 10px;
-        
-    }
-
-
-}
-
-
-@media only screen and (max-width:391px){
-    
-    .logo{
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-        margin-top: 2rem;
-        margin-left: 3rem;
-    }
-    
-    
-    .nav{
-        
-        margin-top: 5px;
-        font-size: 17px;
-        
-    }
-    .navigation{
-        margin-top: 1rem;
-        display: flex;
-        flex-direction: column;
-        margin-right: -4rem;
-        
-    }
-    .my-information{
-
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10px;
-    }
-    
-    .my-photo{
-        width: 170px;
-        margin-top: 1.7rem;
-        float: right;
-       margin-right: 5rem;
-
-    }
-    .container{
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-    }
-    #info{
-        font-size: 30px;
-        margin-left: 3rem;
-        
-
-
-    }
-    .container p{
-        font-size: 19px;
-        font-weight: none;
-        width: 300px;
-        margin-left: 3rem;
-
-    }
-    .about-me{
-        margin-top: 15px;
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .about-me h2{
-        font-size: 25px;
-        margin-left: 1rem;
-        margin-bottom: 20px;
-    }
-    .about-me p{
-        width: 300px;
-        margin-left: 4rem;
-        text-align: justify;
-        font-size: 19px;
-    }
-    #portfolio h3{
-        font-size: 19px;
-    }
-   
-    
-    .my-works{
-        display: flex;
-        flex-direction: row;
-    }
-    .my-arts{
-        width: 100px;
-        margin-left: 10px;
-        
-    }
-    .my-designs{
-        width: 150px;
-    }
-    .what-iprovide{
-        display: flex;
+@media screen and (max-width: 1281px) {
+    .my-discription{
         flex-direction: column;
         align-items: center;
     }
-    .service-title h2{
-       font-size: 25px; 
-       margin: 10px 0;
+    .my-discription p{
+        margin: 0.5rem;
     }
-    .service-title p{
-        font-size: 19px;
-    }
-    .service-discreption h3{
-        font-size: 20px;
-       margin-top: 10px;
-
-    }
-    .service-discreption p{
-        font-size: 19px;
-        margin: 15px 0;
-    }
-    
-    .for-more-info{
-        margin-left: 4rem;
-        display: flex;
-        flex-direction: column;
-    }
-    .for-more-info h2{
-        font-size: 27px;
-        margin: 10px 0;
-    }
-    .for-more-info p{
-        font-size: 19px;
-        margin-bottom: 10px;
-    }
-    .your-info{
-        margin-top: 20px;
-        font-size: 19px;
-    }
-    #footer{
-        font-size: 18px;
+    .my-designs, .my-arts{
+        width: 10rem;
     }
 
 }
+@media screen and (max-width: 1655px) {
+    .my-designs, .my-arts{
+        width: 14rem;
+    } 
+}
+@media screen and (max-width: 1332px){
+    .my-photo{
+        width:20rem;
+        height: 20rem;
+        border-radius: 5rem;
+        margin-top: 4rem;
+    }
+    .my-arts, .my-designs{
+        width: 12rem;
+    }
+    .service-title{
+        margin-top: 7rem;
+    }
+}
+@media screen and (max-width:1231px){
+    .my-arts, .my-designs{
+        width: 11rem;
+    }
+}
+@media screen and (max-width: 1151px){
+    .my-arts, .my-designs{
+        width: 9rem;
+    }
+    
+}
+@media screen and (max-width: 903px) {
+    .my-info h1{
+        font-size: 3rem;
+    }
+    .my-info p{
+        font-size: 1.2rem;
 
+    }
+    .my-photo{
+        width: 15rem;
+        height: 15rem;
+    }
+    .my-discription p{
+        font-size: 1.2rem;
+    }
+    .portfolio h3{
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    .my-arts, .my-designs{
+        width: 7rem;
+    }
+     .service-title p{
+        font-size: 1.2rem;
+    }
+    .service-discreption p{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 827px) {
+    .my-information{
+        flex-direction: column-reverse;
+    }
+    .my-info p{
+        
+        margin: 0.5rem 0;
+    }
+    .my-photo{
+        width: 12rem;
+        height: 12rem;
+        margin-top: 0.1rem;
+    }
+    .my-arts, .my-designs{
+        width: 6rem;
+    }
+    .what-iprovide{
+        flex-direction: column;
+        
+    }
+    .service-title{
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 670px) {
+    .my-info p{
+        font-size: 1.1rem;
+
+    }
+    .my-discription{
+        font-size: 1.1rem;
+
+    }
+    .arts{
+        margin-left: 1rem;
+    }
+    .my-arts{
+        width: 4.5rem;
+    }
+    .my-designs{
+        width: 5.5rem;
+        margin-left: 0.3rem;
+    }
+    .design{
+        margin-left: 0.5rem;
+    }
+    .service-title p{
+        font-size: 1.1rem;
+        padding: 0;
+
+    }
+    .service-discreption p{
+        font-size: 1.1rem;
+        padding: 0;
+
+    }
+    .for-more-info{
+        flex-direction: column;
+        margin-left: 3rem;
+    }
+    .contact{
+        margin: 0.2rem;
+    }
+    .contact p{
+        font-size: 1.1rem;
+
+    }
+    .your-info{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 587px) {
+
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+    .nav{
+        margin: 1px;
+    }
+    .portfolio h3{
+        font-size: 1.8rem;
+    }
+    .my-works{
+        margin-left: 0rem;
+    }
+    .arts, .design{
+        margin-right: 0rem;
+    }
+
+}
+@media screen and (max-width: 416px) {
+    .my-info h1{
+        font-size: 2.5rem;
+    }
+    .my-photo{
+        width: 7rem;
+        height: 7rem;
+    }
+    .about-me{
+        margin-top: 1rem;
+    }
+    .about-me h2{
+        ma
+    }
+}
