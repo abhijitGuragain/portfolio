@@ -172,6 +172,9 @@
     text-align: center;
     font-size: 1rem;
 }
+
+
+/*responsive starts*/
 @media screen and (min-width: 1882px) {
     .my-info h1{
         font-size: 5rem;
@@ -411,3 +414,4 @@
     }
     
 }
+/*Responsive ends*/
