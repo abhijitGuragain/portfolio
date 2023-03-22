@@ -172,6 +172,69 @@
     text-align: center;
     font-size: 1rem;
 }
+@media screen and (min-width: 1882px) {
+    .my-info h1{
+        font-size: 5rem;
+    }
+    .nav{
+        font-size: 2rem;
+    }
+    .my-photo{
+        width: 30rem;
+    }
+    .my-info p{
+        font-size: 2rem;
+    }
+    .my-discription p{
+        font-size: 2rem;
+
+    }
+    .my-arts, .my-designs{
+        width: 27rem;
+    }
+    .about-me h2{
+        font-size: 4rem;
+    }
+    .portfolio h3{
+        font-size: 3.5rem;
+    }
+    .service-discreption p{
+        font-size: 2rem;
+
+    }
+    .service-title p{
+        font-size: 2rem;
+
+    }
+    .service-discreption h3{
+        font-size: 3.5rem;
+
+    }
+    .service-title h2{
+        font-size: 3.5rem;
+        
+    }
+    .contact h2{
+        font-size: 4rem;
+    }
+    .contact p{
+        font-size: 2rem;
+        
+    }
+    .your-info{
+        font-size: 2rem;
+        font-size: ;
+    }
+    #footer p{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1655px) {
+    .my-designs, .my-arts{
+        width: 14rem;
+    } 
+}
 @media screen and (max-width: 1281px) {
     .my-discription{
         flex-direction: column;
@@ -183,13 +246,12 @@
     .my-designs, .my-arts{
         width: 10rem;
     }
+    .my-photo{
+        margin-top: 7rem;
+    }
 
 }
-@media screen and (max-width: 1655px) {
-    .my-designs, .my-arts{
-        width: 14rem;
-    } 
-}
+
 @media screen and (max-width: 1332px){
     .my-photo{
         width:20rem;
@@ -348,7 +410,5 @@
     .about-me{
         margin-top: 1rem;
     }
-    .about-me h2{
-        ma
-    }
+    
 }
